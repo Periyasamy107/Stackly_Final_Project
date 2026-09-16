@@ -1,0 +1,100 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/bank?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+  flyway:
+    enabled: true
+
+  cache:
+    type: caffeine
+    caffeine:
+      spec: maximumSize=1000,expireAfterWrite=1m
+
+logging:
+  level:
+    root: INFO
+    com.example.bank: DEBUG
+    org.springframework.security: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.orm.jdbc.bind: OFF
+
+server:
+  port: ${SERVER_PORT:8080}
+
+bank:
+  api-docs:
+    public: true
+
+  idempotency:
+    ttl-minutes: 2
+
+  file-storage:
+    root-location: ${FILE_STORAGE_ROOT:storage/files}
+    max-file-size-bytes: 2097152
+    max-files-per-owner: 10
+    allowed-extensions:
+      - pdf
+      - jpg
+      - jpeg
+      - png
+      - xlsx
+      - docx
+    create-directory-if-missing: true
+
+  security:
+    jwt:
+      issuer: banking-application
+      access-token-expiration: 60000
+      refresh-token-expiration: 60
+      private-key: ${JWT_PRIVATE_KEY_BASE64}
+      public-key: ${JWT_PUBLIC_KEY_BASE64}
+
+  scheduler:
+    investment-maturity-delay-ms: 60000
+    loan-monitor-delay-ms: 60000
+    notification-maintenance-delay-ms: 120000
+    refresh-token-cleanup-delay-ms: 120000
+    idempotency-cleanup-delay-ms: 120000
+
+  performance:
+    slow-method-threshold-ms: 500
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+      base-path: /actuator
+
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+      probes:
+        enabled: true
+        add-additional-paths: true
+
+    info:
+      access: read-only
+
+    metrics:
+      access: read-only
+
+
+springdoc:
+  api-docs:
+    enabled: true
+
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html

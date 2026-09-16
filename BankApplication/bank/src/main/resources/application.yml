@@ -1,0 +1,115 @@
+spring:
+  application:
+    name: banking-application
+
+  profiles:
+    default: dev
+
+  mvc:
+    problemdetails:
+      enabled: true
+
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+
+  cache:
+    type: caffeine
+    cache-names:
+      - userById
+      - userByUsername
+      - customerById
+      - customerByUserId
+      - employeeById
+      - employeeByUserId
+      - accountById
+      - accountByNumber
+      - loanById
+      - investmentById
+    caffeine:
+      spec: maximumSize=1000,expireAfterWrite=1m
+
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+
+  flyway:
+    enabled: true
+
+bank:
+  api-docs:
+    public: false
+
+  idempotency:
+    ttl-minutes: 2
+
+  file-storage:
+    root-location: storage/files
+    max-file-size-bytes: 2097152
+    max-files-per-owner: 10
+    allowed-extensions:
+      - pdf
+      - jpg
+      - jpeg
+      - png
+      - xlsx
+      - docx
+    create-directory-if-missing: true
+
+  scheduler:
+    investment-maturity-delay-ms: 60000
+    loan-monitor-delay-ms: 60000
+    notification-maintenance-delay-ms: 120000
+    refresh-token-cleanup-delay-ms: 120000
+    idempotency-cleanup-delay-ms: 120000
+
+  performance:
+    slow-method-threshold-ms: 500
+
+server:
+  error:
+    include-message: never
+    include-binding-errors: never
+    include-stacktrace: never
+    include-exception: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+      base-path: /actuator
+
+    access:
+      default: none
+
+  endpoint:
+    health:
+      probes:
+        enabled: true
+        add-additional-paths: true
+      show-details: never
+      show-components: never
+
+    info:
+      access: read-only
+
+    metrics:
+      access: read-only
+
+info:
+  app:
+    name: Banking Application
+    description: Production-ready banking application
+    version: ${APP_VERSION:dev}
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+
+  swagger-ui:
+    path: /swagger-ui.html

@@ -1,0 +1,85 @@
+spring:
+  datasource:
+    url: ${TEST_DB_URL:jdbc:mysql://localhost:3306/banking_application_test?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true}
+    username: ${TEST_DB_USERNAME:root}
+    password: ${TEST_DB_PASSWORD:root}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+  flyway:
+    enabled: true
+
+  cache:
+    type: caffeine
+    caffeine:
+      spec: maximumSize=500,expireAfterWrite=1m
+
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+
+server:
+  port: 0
+
+bank:
+  file-storage:
+    root-location: ${TEST_FILE_STORAGE_ROOT:${java.io.tmpdir}/banking-application-test/files}
+    max-file-size-bytes: 2097152
+    max-files-per-owner: 10
+    allowed-extensions:
+      - pdf
+      - jpg
+      - jpeg
+      - png
+      - xlsx
+      - docx
+    create-directory-if-missing: true
+
+  idempotency:
+    ttl-minutes: 2
+
+  security:
+    jwt:
+      access-token-expiration: 60
+      refresh-token-expiration: 600
+
+  scheduler:
+    investment-maturity-delay-ms: 60000
+    loan-monitor-delay-ms: 60000
+    notification-maintenance-delay-ms: 120000
+    refresh-token-cleanup-delay-ms: 120000
+    idempotency-cleanup-delay-ms: 120000
+
+  performance:
+    slow-method-threshold-ms: 500
+
+logging:
+  level:
+    root: WARN
+    com.example.bank: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+  endpoint:
+    health:
+      show-details: never
+      show-components: never
+
+
+springdoc:
+  api-docs:
+    enabled: false
+
+  swagger-ui:
+    enabled: false

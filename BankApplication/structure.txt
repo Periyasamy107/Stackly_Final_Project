@@ -1,0 +1,1827 @@
+Folder PATH listing for volume New Volume
+Volume serial number is AAD1-EC21
+D:.
+¦   structure.txt
+¦   
++---bank
+    ¦   .gitattributes
+    ¦   .gitignore
+    ¦   HELP.md
+    ¦   mvnw
+    ¦   mvnw.cmd
+    ¦   pom.xml
+    ¦   
+    +---.mvn
+    ¦   +---wrapper
+    ¦           maven-wrapper.properties
+    ¦           
+    +---src
+    ¦   +---main
+    ¦   ¦   +---java
+    ¦   ¦   ¦   +---com
+    ¦   ¦   ¦       +---example
+    ¦   ¦   ¦           +---bank
+    ¦   ¦   ¦               ¦   BankApplication.java
+    ¦   ¦   ¦               ¦   JwtKeyGenerator.java
+    ¦   ¦   ¦               ¦   PasswordHashGenerator.java
+    ¦   ¦   ¦               ¦   
+    ¦   ¦   ¦               +---account
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       AccountMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           AccountRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       AccountForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       AccountRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           AccountResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       Account.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---mapper
+    ¦   ¦   ¦               ¦   ¦       AccountMapper.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       AccountRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           AccountNumberGenerator.java
+    ¦   ¦   ¦               ¦           AccountNumberGeneratorImpl.java
+    ¦   ¦   ¦               ¦           AccountService.java
+    ¦   ¦   ¦               ¦           AccountServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---admin
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       AdminAccountMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       AdminMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           AdminAccountRestController.java
+    ¦   ¦   ¦               ¦   ¦           AdminRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       AdminForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       AdminRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           AdminResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           AdminAccountService.java
+    ¦   ¦   ¦               ¦           AdminAccountServiceImpl.java
+    ¦   ¦   ¦               ¦           AdminService.java
+    ¦   ¦   ¦               ¦           AdminServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---aspect
+    ¦   ¦   ¦               ¦       AuditAspect.java
+    ¦   ¦   ¦               ¦       IdempotencyAspect.java
+    ¦   ¦   ¦               ¦       LoggingAspect.java
+    ¦   ¦   ¦               ¦       PerformanceAspect.java
+    ¦   ¦   ¦               ¦       SecurityAuditAspect.java
+    ¦   ¦   ¦               ¦       
+    ¦   ¦   ¦               +---audit
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       AuditMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           AuditRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           AuditLogResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       AuditLog.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       AuditLogRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           AuditService.java
+    ¦   ¦   ¦               ¦           AuditServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---auth
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       AuthMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           AuthRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       ChangePasswordRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       LoginRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       RefreshTokenRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           LoginResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       RefreshToken.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       RefreshTokenRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           AuthService.java
+    ¦   ¦   ¦               ¦           AuthServiceImpl.java
+    ¦   ¦   ¦               ¦           RefreshTokenService.java
+    ¦   ¦   ¦               ¦           RefreshTokenServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---common
+    ¦   ¦   ¦               ¦   +---audit
+    ¦   ¦   ¦               ¦   ¦       AuditableEntity.java
+    ¦   ¦   ¦               ¦   ¦       AuditAction.java
+    ¦   ¦   ¦               ¦   ¦       AuditorAwareImpl.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---constant
+    ¦   ¦   ¦               ¦   ¦       ApiConstants.java
+    ¦   ¦   ¦               ¦   ¦       BankingConstants.java
+    ¦   ¦   ¦               ¦   ¦       SecurityConstants.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---enums
+    ¦   ¦   ¦               ¦   ¦       AccountStatus.java
+    ¦   ¦   ¦               ¦   ¦       AccountType.java
+    ¦   ¦   ¦               ¦   ¦       CustomerStatus.java
+    ¦   ¦   ¦               ¦   ¦       FileDocumentType.java
+    ¦   ¦   ¦               ¦   ¦       FileMetadataStatus.java
+    ¦   ¦   ¦               ¦   ¦       IdempotencyStatus.java
+    ¦   ¦   ¦               ¦   ¦       InvestmentStatus.java
+    ¦   ¦   ¦               ¦   ¦       InvestmentType.java
+    ¦   ¦   ¦               ¦   ¦       LoanRepaymentStatus.java
+    ¦   ¦   ¦               ¦   ¦       LoanStatus.java
+    ¦   ¦   ¦               ¦   ¦       LoanType.java
+    ¦   ¦   ¦               ¦   ¦       NotificationType.java
+    ¦   ¦   ¦               ¦   ¦       Role.java
+    ¦   ¦   ¦               ¦   ¦       TransactionStatus.java
+    ¦   ¦   ¦               ¦   ¦       TransactionType.java
+    ¦   ¦   ¦               ¦   ¦       UserStatus.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---exception
+    ¦   ¦   ¦               ¦   ¦       ApplicationException.java
+    ¦   ¦   ¦               ¦   ¦       BusinessException.java
+    ¦   ¦   ¦               ¦   ¦       FileStorageException.java
+    ¦   ¦   ¦               ¦   ¦       ForbiddenException.java
+    ¦   ¦   ¦               ¦   ¦       GlobalExceptionHandler.java
+    ¦   ¦   ¦               ¦   ¦       IdempotencyException.java
+    ¦   ¦   ¦               ¦   ¦       InsufficientBalanceException.java
+    ¦   ¦   ¦               ¦   ¦       InvalidTransactionException.java
+    ¦   ¦   ¦               ¦   ¦       LoanEligibilityException.java
+    ¦   ¦   ¦               ¦   ¦       ResourceNotFoundException.java
+    ¦   ¦   ¦               ¦   ¦       UnauthorizedException.java
+    ¦   ¦   ¦               ¦   ¦       ValidationException.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---response
+    ¦   ¦   ¦               ¦   ¦       ApiResponse.java
+    ¦   ¦   ¦               ¦   ¦       ErrorResponse.java
+    ¦   ¦   ¦               ¦   ¦       FieldErrorResponse.java
+    ¦   ¦   ¦               ¦   ¦       PageResponse.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---util
+    ¦   ¦   ¦               ¦   ¦       DateTimeUtil.java
+    ¦   ¦   ¦               ¦   ¦       MoneyUtil.java
+    ¦   ¦   ¦               ¦   ¦       PageableUtil.java
+    ¦   ¦   ¦               ¦   ¦       SecurityUtil.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---validation
+    ¦   ¦   ¦               ¦           DateRangeValidator.java
+    ¦   ¦   ¦               ¦           StrongPassword.java
+    ¦   ¦   ¦               ¦           StrongPasswordValidator.java
+    ¦   ¦   ¦               ¦           ValidationUtil.java
+    ¦   ¦   ¦               ¦           ValidDateRange.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---config
+    ¦   ¦   ¦               ¦       AsyncConfig.java
+    ¦   ¦   ¦               ¦       BigDecimalSerializer.java
+    ¦   ¦   ¦               ¦       CacheConfig.java
+    ¦   ¦   ¦               ¦       FileStorageConfig.java
+    ¦   ¦   ¦               ¦       FileStorageInitializer.java
+    ¦   ¦   ¦               ¦       FileStorageProperties.java
+    ¦   ¦   ¦               ¦       JacksonConfig.java
+    ¦   ¦   ¦               ¦       JpaAuditingConfig.java
+    ¦   ¦   ¦               ¦       JwtConfig.java
+    ¦   ¦   ¦               ¦       OpenApiConfig.java
+    ¦   ¦   ¦               ¦       SchedulingConfig.java
+    ¦   ¦   ¦               ¦       SecurityConfig.java
+    ¦   ¦   ¦               ¦       WebMvcConfig.java
+    ¦   ¦   ¦               ¦       
+    ¦   ¦   ¦               +---controller
+    ¦   ¦   ¦               ¦   +---mvc
+    ¦   ¦   ¦               ¦           AccessDeniedMvcController.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---customer
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       CustomerMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           CustomerRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       CustomerForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       CustomerRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           CustomerResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       Customer.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---mapper
+    ¦   ¦   ¦               ¦   ¦       CustomerMapper.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       CustomerRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦   ¦       CustomerLifecycleValidator.java
+    ¦   ¦   ¦               ¦   ¦       CustomerService.java
+    ¦   ¦   ¦               ¦   ¦       CustomerServiceImpl.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---specification
+    ¦   ¦   ¦               ¦           CustomerSpecification.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---employee
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       EmployeeMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           EmployeeRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       EmployeeForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       EmployeeRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           EmployeeResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       Employee.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---mapper
+    ¦   ¦   ¦               ¦   ¦       EmployeeMapper.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       EmployeeRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           EmployeeService.java
+    ¦   ¦   ¦               ¦           EmployeeServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---event
+    ¦   ¦   ¦               ¦   ¦   AuditEvent.java
+    ¦   ¦   ¦               ¦   ¦   CustomerCreatedEvent.java
+    ¦   ¦   ¦               ¦   ¦   DomainEvent.java
+    ¦   ¦   ¦               ¦   ¦   InvestmentMaturityEvent.java
+    ¦   ¦   ¦               ¦   ¦   LoanApprovedEvent.java
+    ¦   ¦   ¦               ¦   ¦   TransactionCompletedEvent.java
+    ¦   ¦   ¦               ¦   ¦   
+    ¦   ¦   ¦               ¦   +---listener
+    ¦   ¦   ¦               ¦           AuditEventListener.java
+    ¦   ¦   ¦               ¦           NotificationEventListener.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---file
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       FileMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           FileMetadataRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       FileMetadataForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       FileMetadataRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           FileMetadataResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       FileMetadata.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---mapper
+    ¦   ¦   ¦               ¦   ¦       FileMetadataMapper.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       FileMetadataRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦   ¦       FileMetadataService.java
+    ¦   ¦   ¦               ¦   ¦       FileMetadataServiceImpl.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---storage
+    ¦   ¦   ¦               ¦           FileStorageService.java
+    ¦   ¦   ¦               ¦           LocalFileStorageService.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---idempotency
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       ApiIdempotencyKey.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---filter
+    ¦   ¦   ¦               ¦   ¦       IdempotencyKeyFilter.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       ApiIdempotencyKeyRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           IdempotencyService.java
+    ¦   ¦   ¦               ¦           IdempotencyServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---investment
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       InvestmentMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           InvestmentRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       InvestmentForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       InvestmentRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           InvestmentResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       Investment.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---mapper
+    ¦   ¦   ¦               ¦   ¦       InvestmentMapper.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       InvestmentRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           InvestmentService.java
+    ¦   ¦   ¦               ¦           InvestmentServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---investmentperformance
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       InvestmentPerformanceMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           InvestmentPerformanceRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       InvestmentPerformanceForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       InvestmentPerformanceRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           InvestmentPerformanceResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       InvestmentPerformance.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---mapper
+    ¦   ¦   ¦               ¦   ¦       InvestmentPerformanceMapper.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       InvestmentPerformanceRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           InvestmentPerformanceService.java
+    ¦   ¦   ¦               ¦           InvestmentPerformanceServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---loan
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       LoanMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           LoanRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       LoanForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       LoanApprovalRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       LoanDisbursementRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       LoanRejectionRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       LoanRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           LoanEligibilityResponse.java
+    ¦   ¦   ¦               ¦   ¦           LoanResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       Loan.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---mapper
+    ¦   ¦   ¦               ¦   ¦       LoanMapper.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       LoanRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦   ¦       LoanService.java
+    ¦   ¦   ¦               ¦   ¦       LoanServiceImpl.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---specification
+    ¦   ¦   ¦               ¦           LoanSpecification.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---loanrepayment
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       LoanRepaymentMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           LoanRepaymentRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       LoanRepaymentForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       LoanRepaymentRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           LoanRepaymentResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       LoanRepayment.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---mapper
+    ¦   ¦   ¦               ¦   ¦       LoanRepaymentMapper.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       LoanRepaymentRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           LoanRepaymentService.java
+    ¦   ¦   ¦               ¦           LoanRepaymentServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---notification
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           NotificationRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           NotificationResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       Notification.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       NotificationRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           NotificationService.java
+    ¦   ¦   ¦               ¦           NotificationServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---reporting
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       ReportingMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           ReportingRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       ReportRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           AccountReportResponse.java
+    ¦   ¦   ¦               ¦   ¦           CustomerReportResponse.java
+    ¦   ¦   ¦               ¦   ¦           InvestmentReportResponse.java
+    ¦   ¦   ¦               ¦   ¦           LoanReportResponse.java
+    ¦   ¦   ¦               ¦   ¦           TransactionReportResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---enums
+    ¦   ¦   ¦               ¦   ¦       ReportType.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       ReportingRepository.java
+    ¦   ¦   ¦               ¦   ¦       ReportingRepositoryImpl.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           ReportingService.java
+    ¦   ¦   ¦               ¦           ReportingServiceImpl.java
+    ¦   ¦   ¦               ¦           ReportQuery.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---scheduler
+    ¦   ¦   ¦               ¦       IdempotencyCleanupScheduler.java
+    ¦   ¦   ¦               ¦       InvestmentScheduler.java
+    ¦   ¦   ¦               ¦       LoanScheduler.java
+    ¦   ¦   ¦               ¦       NotificationScheduler.java
+    ¦   ¦   ¦               ¦       RefreshTokenCleanupScheduler.java
+    ¦   ¦   ¦               ¦       
+    ¦   ¦   ¦               +---security
+    ¦   ¦   ¦               ¦   +---audit
+    ¦   ¦   ¦               ¦   ¦       SecurityAuditAspect.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---authentication
+    ¦   ¦   ¦               ¦   ¦       AuthenticationService.java
+    ¦   ¦   ¦               ¦   ¦       CustomUserDetails.java
+    ¦   ¦   ¦               ¦   ¦       CustomUserDetailsService.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---authorization
+    ¦   ¦   ¦               ¦   ¦       AccountAuthorizationService.java
+    ¦   ¦   ¦               ¦   ¦       CustomerAuthorizationService.java
+    ¦   ¦   ¦               ¦   ¦       FileMetadataAuthorizationService.java
+    ¦   ¦   ¦               ¦   ¦       InvestmentAuthorizationService.java
+    ¦   ¦   ¦               ¦   ¦       InvestmentPerformanceAuthorizationService.java
+    ¦   ¦   ¦               ¦   ¦       LoanAuthorizationService.java
+    ¦   ¦   ¦               ¦   ¦       LoanRepaymentAuthorizationService.java
+    ¦   ¦   ¦               ¦   ¦       TransactionAuthorizationService.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---handler
+    ¦   ¦   ¦               ¦   ¦       CustomAccessDeniedHandler.java
+    ¦   ¦   ¦               ¦   ¦       CustomAuthenticationFailureHandler.java
+    ¦   ¦   ¦               ¦   ¦       CustomAuthenticationSuccessHandler.java
+    ¦   ¦   ¦               ¦   ¦       RestAccessDeniedHandler.java
+    ¦   ¦   ¦               ¦   ¦       RestAuthenticationEntryPoint.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---jwt
+    ¦   ¦   ¦               ¦           JwtAuthenticationConverterConfig.java
+    ¦   ¦   ¦               ¦           JwtService.java
+    ¦   ¦   ¦               ¦           JwtTokenService.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---transaction
+    ¦   ¦   ¦               ¦   +---controller
+    ¦   ¦   ¦               ¦   ¦   +---mvc
+    ¦   ¦   ¦               ¦   ¦   ¦       TransactionMvcController.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---rest
+    ¦   ¦   ¦               ¦   ¦           TransactionRestController.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---dto
+    ¦   ¦   ¦               ¦   ¦   +---form
+    ¦   ¦   ¦               ¦   ¦   ¦       TransactionForm.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---request
+    ¦   ¦   ¦               ¦   ¦   ¦       TransactionRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       TransferRequest.java
+    ¦   ¦   ¦               ¦   ¦   ¦       
+    ¦   ¦   ¦               ¦   ¦   +---response
+    ¦   ¦   ¦               ¦   ¦           TransactionResponse.java
+    ¦   ¦   ¦               ¦   ¦           
+    ¦   ¦   ¦               ¦   +---entity
+    ¦   ¦   ¦               ¦   ¦       Transaction.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---mapper
+    ¦   ¦   ¦               ¦   ¦       TransactionMapper.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---repository
+    ¦   ¦   ¦               ¦   ¦       TransactionRepository.java
+    ¦   ¦   ¦               ¦   ¦       
+    ¦   ¦   ¦               ¦   +---service
+    ¦   ¦   ¦               ¦           TransactionReferenceGenerator.java
+    ¦   ¦   ¦               ¦           TransactionReferenceGeneratorImpl.java
+    ¦   ¦   ¦               ¦           TransactionService.java
+    ¦   ¦   ¦               ¦           TransactionServiceImpl.java
+    ¦   ¦   ¦               ¦           
+    ¦   ¦   ¦               +---user
+    ¦   ¦   ¦                   +---controller
+    ¦   ¦   ¦                   ¦   +---mvc
+    ¦   ¦   ¦                   ¦   ¦       UserMvcController.java
+    ¦   ¦   ¦                   ¦   ¦       
+    ¦   ¦   ¦                   ¦   +---rest
+    ¦   ¦   ¦                   ¦           UserRestController.java
+    ¦   ¦   ¦                   ¦           
+    ¦   ¦   ¦                   +---dto
+    ¦   ¦   ¦                   ¦   +---request
+    ¦   ¦   ¦                   ¦   ¦       UserRequest.java
+    ¦   ¦   ¦                   ¦   ¦       
+    ¦   ¦   ¦                   ¦   +---response
+    ¦   ¦   ¦                   ¦           UserResponse.java
+    ¦   ¦   ¦                   ¦           
+    ¦   ¦   ¦                   +---entity
+    ¦   ¦   ¦                   ¦       User.java
+    ¦   ¦   ¦                   ¦       
+    ¦   ¦   ¦                   +---mapper
+    ¦   ¦   ¦                   ¦       UserMapper.java
+    ¦   ¦   ¦                   ¦       
+    ¦   ¦   ¦                   +---repository
+    ¦   ¦   ¦                   ¦       UserRepository.java
+    ¦   ¦   ¦                   ¦       
+    ¦   ¦   ¦                   +---service
+    ¦   ¦   ¦                           UserService.java
+    ¦   ¦   ¦                           UserServiceImpl.java
+    ¦   ¦   ¦                           
+    ¦   ¦   +---resources
+    ¦   ¦       ¦   application-dev.yml
+    ¦   ¦       ¦   application-prod.yml
+    ¦   ¦       ¦   application-test.yml
+    ¦   ¦       ¦   application.properties
+    ¦   ¦       ¦   application.yml
+    ¦   ¦       ¦   
+    ¦   ¦       +---db
+    ¦   ¦       ¦   +---migration
+    ¦   ¦       ¦           V10__create_file_metadata.sql
+    ¦   ¦       ¦           V11__create_refresh_tokens.sql
+    ¦   ¦       ¦           V12__add_loan_disbursement_support.sql
+    ¦   ¦       ¦           V13__add_customer_lifecycle.sql
+    ¦   ¦       ¦           V14__create_notifications.sql
+    ¦   ¦       ¦           V15__create_audit_logs.sql
+    ¦   ¦       ¦           V16__create_idempotency_keys.sql
+    ¦   ¦       ¦           V17__add_investment_settlement_support.sql
+    ¦   ¦       ¦           V18__correct_transaction_type_constraint.sql
+    ¦   ¦       ¦           V1__create_users.sql
+    ¦   ¦       ¦           V2__create_customers.sql
+    ¦   ¦       ¦           V3__create_employees.sql
+    ¦   ¦       ¦           V4__create_accounts.sql
+    ¦   ¦       ¦           V5__create_transactions.sql
+    ¦   ¦       ¦           V6__create_loans.sql
+    ¦   ¦       ¦           V7__create_loan_repayments.sql
+    ¦   ¦       ¦           V8__create_investments.sql
+    ¦   ¦       ¦           V9__create_investment_performance.sql
+    ¦   ¦       ¦           
+    ¦   ¦       +---static
+    ¦   ¦       ¦   +---css
+    ¦   ¦       ¦   ¦       auth.css
+    ¦   ¦       ¦   ¦       banking.css
+    ¦   ¦       ¦   ¦       common.css
+    ¦   ¦       ¦   ¦       dashboard.css
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---images
+    ¦   ¦       ¦   ¦       logo.png
+    ¦   ¦       ¦   ¦       
+    ¦   ¦       ¦   +---js
+    ¦   ¦       ¦           banking.js
+    ¦   ¦       ¦           common.js
+    ¦   ¦       ¦           validation.js
+    ¦   ¦       ¦           
+    ¦   ¦       +---templates
+    ¦   ¦           +---admin
+    ¦   ¦           ¦       accounts.html
+    ¦   ¦           ¦       audit.html
+    ¦   ¦           ¦       customers.html
+    ¦   ¦           ¦       dashboard.html
+    ¦   ¦           ¦       employees.html
+    ¦   ¦           ¦       investments.html
+    ¦   ¦           ¦       loans.html
+    ¦   ¦           ¦       reports.html
+    ¦   ¦           ¦       users.html
+    ¦   ¦           ¦       
+    ¦   ¦           +---auth
+    ¦   ¦           ¦       access-denied.html
+    ¦   ¦           ¦       change-password.html
+    ¦   ¦           ¦       login.html
+    ¦   ¦           ¦       
+    ¦   ¦           +---customer
+    ¦   ¦           ¦       accounts.html
+    ¦   ¦           ¦       dashboard.html
+    ¦   ¦           ¦       files.html
+    ¦   ¦           ¦       investments.html
+    ¦   ¦           ¦       loans.html
+    ¦   ¦           ¦       notifications.html
+    ¦   ¦           ¦       profile.html
+    ¦   ¦           ¦       transactions.html
+    ¦   ¦           ¦       transfer.html
+    ¦   ¦           ¦       
+    ¦   ¦           +---employee
+    ¦   ¦           ¦       accounts.html
+    ¦   ¦           ¦       customers.html
+    ¦   ¦           ¦       dashboard.html
+    ¦   ¦           ¦       investments.html
+    ¦   ¦           ¦       loans.html
+    ¦   ¦           ¦       profile.html
+    ¦   ¦           ¦       
+    ¦   ¦           +---error
+    ¦   ¦           ¦       400.html
+    ¦   ¦           ¦       403.html
+    ¦   ¦           ¦       404.html
+    ¦   ¦           ¦       409.html
+    ¦   ¦           ¦       500.html
+    ¦   ¦           ¦       access-denied.html
+    ¦   ¦           ¦       error.html
+    ¦   ¦           ¦       
+    ¦   ¦           +---fragments
+    ¦   ¦                   alerts.html
+    ¦   ¦                   footer.html
+    ¦   ¦                   header.html
+    ¦   ¦                   navbar.html
+    ¦   ¦                   pagination.html
+    ¦   ¦                   sidebar.html
+    ¦   ¦                   
+    ¦   +---test
+    ¦       +---java
+    ¦       ¦   +---com
+    ¦       ¦       +---example
+    ¦       ¦           +---bank
+    ¦       ¦               ¦   BankApplicationTests.java
+    ¦       ¦               ¦   
+    ¦       ¦               +---controller
+    ¦       ¦               ¦   +---account
+    ¦       ¦               ¦   ¦       AccountRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---admin
+    ¦       ¦               ¦   ¦       AdminRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---auth
+    ¦       ¦               ¦   ¦       AuthRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---customer
+    ¦       ¦               ¦   ¦       CustomerRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---employee
+    ¦       ¦               ¦   ¦       EmployeeRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---file
+    ¦       ¦               ¦   ¦       FileMetadataRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---investment
+    ¦       ¦               ¦   ¦       InvestmentRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---loan
+    ¦       ¦               ¦   ¦       LoanRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---loanrepayment
+    ¦       ¦               ¦   ¦       LoanRepaymentRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---transaction
+    ¦       ¦               ¦   ¦       TransactionRestControllerTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---user
+    ¦       ¦               ¦           UserRestControllerTest.java
+    ¦       ¦               ¦           
+    ¦       ¦               +---repository
+    ¦       ¦               ¦   +---account
+    ¦       ¦               ¦   ¦       AccountRepositoryTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---customer
+    ¦       ¦               ¦   ¦       CustomerRepositoryTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---employee
+    ¦       ¦               ¦   ¦       EmployeeRepositoryTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---file
+    ¦       ¦               ¦   ¦       FileMetadataRepositoryTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---investment
+    ¦       ¦               ¦   ¦       InvestmentRepositoryTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---investmentperformance
+    ¦       ¦               ¦   ¦       InvestmentPerformanceRepositoryTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---loan
+    ¦       ¦               ¦   ¦       LoanRepositoryTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---loanrepayment
+    ¦       ¦               ¦   ¦       LoanRepaymentRepositoryTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---transaction
+    ¦       ¦               ¦   ¦       TransactionRepositoryTest.java
+    ¦       ¦               ¦   ¦       
+    ¦       ¦               ¦   +---user
+    ¦       ¦               ¦           UserRepositoryTest.java
+    ¦       ¦               ¦           
+    ¦       ¦               +---service
+    ¦       ¦                   +---account
+    ¦       ¦                   ¦       AccountNumberGeneratorImplTest.java
+    ¦       ¦                   ¦       AccountServiceImplTest.java
+    ¦       ¦                   ¦       
+    ¦       ¦                   +---admin
+    ¦       ¦                   ¦       AdminServiceImplTest.java
+    ¦       ¦                   ¦       
+    ¦       ¦                   +---auth
+    ¦       ¦                   ¦       AuthServiceImplTest.java
+    ¦       ¦                   ¦       
+    ¦       ¦                   +---customer
+    ¦       ¦                   ¦       CustomerServiceImplTest.java
+    ¦       ¦                   ¦       
+    ¦       ¦                   +---employee
+    ¦       ¦                   ¦       EmployeeServiceImplTest.java
+    ¦       ¦                   ¦       
+    ¦       ¦                   +---investment
+    ¦       ¦                   ¦       InvestmentServiceImplTest.java
+    ¦       ¦                   ¦       
+    ¦       ¦                   +---loan
+    ¦       ¦                   ¦       LoanServiceImplTest.java
+    ¦       ¦                   ¦       
+    ¦       ¦                   +---loanrepayment
+    ¦       ¦                   ¦       LoanRepaymentServiceImplTest.java
+    ¦       ¦                   ¦       
+    ¦       ¦                   +---transaction
+    ¦       ¦                   ¦       TransactionServiceImplTest.java
+    ¦       ¦                   ¦       
+    ¦       ¦                   +---user
+    ¦       ¦                           UserServiceImplTest.java
+    ¦       ¦                           
+    ¦       +---resources
+    ¦               application-test.yml
+    ¦               test-data.sql
+    ¦               
+    +---target
+        +---classes
+        ¦   ¦   application-dev.yml
+        ¦   ¦   application-prod.yml
+        ¦   ¦   application-test.yml
+        ¦   ¦   application.properties
+        ¦   ¦   application.yml
+        ¦   ¦   
+        ¦   +---com
+        ¦   ¦   +---example
+        ¦   ¦       +---bank
+        ¦   ¦           ¦   BankApplication.class
+        ¦   ¦           ¦   JwtKeyGenerator.class
+        ¦   ¦           ¦   PasswordHashGenerator.class
+        ¦   ¦           ¦   
+        ¦   ¦           +---account
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       AccountMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           AccountRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       AccountForm$AccountFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       AccountForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       AccountRequest$AccountRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       AccountRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           AccountResponse$AccountResponseBuilder.class
+        ¦   ¦           ¦   ¦           AccountResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       Account$AccountBuilder.class
+        ¦   ¦           ¦   ¦       Account.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---mapper
+        ¦   ¦           ¦   ¦       AccountMapper.class
+        ¦   ¦           ¦   ¦       AccountMapperImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       AccountRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           AccountNumberGenerator.class
+        ¦   ¦           ¦           AccountNumberGeneratorImpl.class
+        ¦   ¦           ¦           AccountService.class
+        ¦   ¦           ¦           AccountServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---admin
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       AdminAccountMvcController.class
+        ¦   ¦           ¦   ¦   ¦       AdminMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           AdminAccountRestController.class
+        ¦   ¦           ¦   ¦           AdminRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       AdminForm$AdminFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       AdminForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       AdminRequest$AdminRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       AdminRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           AdminResponse$AdminResponseBuilder.class
+        ¦   ¦           ¦   ¦           AdminResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           AdminAccountService.class
+        ¦   ¦           ¦           AdminAccountServiceImpl.class
+        ¦   ¦           ¦           AdminService.class
+        ¦   ¦           ¦           AdminServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---aspect
+        ¦   ¦           ¦       AuditAspect$AuditContext.class
+        ¦   ¦           ¦       AuditAspect.class
+        ¦   ¦           ¦       IdempotencyAspect.class
+        ¦   ¦           ¦       LoggingAspect.class
+        ¦   ¦           ¦       PerformanceAspect.class
+        ¦   ¦           ¦       
+        ¦   ¦           +---audit
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       AuditMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           AuditRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           AuditLogResponse$AuditLogResponseBuilder.class
+        ¦   ¦           ¦   ¦           AuditLogResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       AuditLog$AuditLogBuilder.class
+        ¦   ¦           ¦   ¦       AuditLog.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       AuditLogRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           AuditService$AuditLogRecord.class
+        ¦   ¦           ¦           AuditService.class
+        ¦   ¦           ¦           AuditServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---auth
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       AuthMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           AuthRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       ChangePasswordRequest$ChangePasswordRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       ChangePasswordRequest.class
+        ¦   ¦           ¦   ¦   ¦       LoginRequest$LoginRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       LoginRequest.class
+        ¦   ¦           ¦   ¦   ¦       RefreshTokenRequest$RefreshTokenRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       RefreshTokenRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           LoginResponse$LoginResponseBuilder.class
+        ¦   ¦           ¦   ¦           LoginResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       RefreshToken$RefreshTokenBuilder.class
+        ¦   ¦           ¦   ¦       RefreshToken.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       RefreshTokenRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           AuthService.class
+        ¦   ¦           ¦           AuthServiceImpl.class
+        ¦   ¦           ¦           RefreshTokenService.class
+        ¦   ¦           ¦           RefreshTokenServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---common
+        ¦   ¦           ¦   +---audit
+        ¦   ¦           ¦   ¦       AuditableEntity.class
+        ¦   ¦           ¦   ¦       AuditAction.class
+        ¦   ¦           ¦   ¦       AuditorAwareImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---constant
+        ¦   ¦           ¦   ¦       ApiConstants.class
+        ¦   ¦           ¦   ¦       BankingConstants.class
+        ¦   ¦           ¦   ¦       SecurityConstants.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---enums
+        ¦   ¦           ¦   ¦       AccountStatus.class
+        ¦   ¦           ¦   ¦       AccountType.class
+        ¦   ¦           ¦   ¦       CustomerStatus.class
+        ¦   ¦           ¦   ¦       FileDocumentType.class
+        ¦   ¦           ¦   ¦       FileMetadataStatus.class
+        ¦   ¦           ¦   ¦       IdempotencyStatus.class
+        ¦   ¦           ¦   ¦       InvestmentStatus.class
+        ¦   ¦           ¦   ¦       InvestmentType.class
+        ¦   ¦           ¦   ¦       LoanRepaymentStatus.class
+        ¦   ¦           ¦   ¦       LoanStatus.class
+        ¦   ¦           ¦   ¦       LoanType.class
+        ¦   ¦           ¦   ¦       NotificationType.class
+        ¦   ¦           ¦   ¦       Role.class
+        ¦   ¦           ¦   ¦       TransactionStatus.class
+        ¦   ¦           ¦   ¦       TransactionType.class
+        ¦   ¦           ¦   ¦       UserStatus.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---exception
+        ¦   ¦           ¦   ¦       ApplicationException.class
+        ¦   ¦           ¦   ¦       BusinessException.class
+        ¦   ¦           ¦   ¦       FileStorageException.class
+        ¦   ¦           ¦   ¦       ForbiddenException.class
+        ¦   ¦           ¦   ¦       GlobalExceptionHandler.class
+        ¦   ¦           ¦   ¦       IdempotencyException.class
+        ¦   ¦           ¦   ¦       InsufficientBalanceException.class
+        ¦   ¦           ¦   ¦       InvalidTransactionException.class
+        ¦   ¦           ¦   ¦       LoanEligibilityException.class
+        ¦   ¦           ¦   ¦       ResourceNotFoundException.class
+        ¦   ¦           ¦   ¦       UnauthorizedException.class
+        ¦   ¦           ¦   ¦       ValidationException.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---response
+        ¦   ¦           ¦   ¦       ApiResponse$ApiResponseBuilder.class
+        ¦   ¦           ¦   ¦       ApiResponse.class
+        ¦   ¦           ¦   ¦       ErrorResponse$ErrorResponseBuilder.class
+        ¦   ¦           ¦   ¦       ErrorResponse.class
+        ¦   ¦           ¦   ¦       FieldErrorResponse$FieldErrorResponseBuilder.class
+        ¦   ¦           ¦   ¦       FieldErrorResponse.class
+        ¦   ¦           ¦   ¦       PageResponse$PageResponseBuilder.class
+        ¦   ¦           ¦   ¦       PageResponse.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---util
+        ¦   ¦           ¦   ¦       DateTimeUtil.class
+        ¦   ¦           ¦   ¦       MoneyUtil.class
+        ¦   ¦           ¦   ¦       PageableUtil.class
+        ¦   ¦           ¦   ¦       SecurityUtil.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---validation
+        ¦   ¦           ¦           DateRangeValidator.class
+        ¦   ¦           ¦           StrongPassword.class
+        ¦   ¦           ¦           StrongPasswordValidator.class
+        ¦   ¦           ¦           ValidationUtil.class
+        ¦   ¦           ¦           ValidDateRange.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---config
+        ¦   ¦           ¦       AsyncConfig$1.class
+        ¦   ¦           ¦       AsyncConfig.class
+        ¦   ¦           ¦       BigDecimalSerializer.class
+        ¦   ¦           ¦       CacheConfig.class
+        ¦   ¦           ¦       FileStorageConfig.class
+        ¦   ¦           ¦       FileStorageInitializer.class
+        ¦   ¦           ¦       FileStorageProperties.class
+        ¦   ¦           ¦       JacksonConfig$LocalDateDeserializer.class
+        ¦   ¦           ¦       JacksonConfig$LocalDateSerializer.class
+        ¦   ¦           ¦       JacksonConfig$LocalDateTimeDeserializer.class
+        ¦   ¦           ¦       JacksonConfig$LocalDateTimeSerializer.class
+        ¦   ¦           ¦       JacksonConfig.class
+        ¦   ¦           ¦       JpaAuditingConfig.class
+        ¦   ¦           ¦       JwtConfig.class
+        ¦   ¦           ¦       OpenApiConfig.class
+        ¦   ¦           ¦       SchedulingConfig.class
+        ¦   ¦           ¦       SecurityConfig.class
+        ¦   ¦           ¦       WebMvcConfig.class
+        ¦   ¦           ¦       
+        ¦   ¦           +---controller
+        ¦   ¦           ¦   +---mvc
+        ¦   ¦           ¦           AccessDeniedMvcController.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---customer
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       CustomerMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           CustomerRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       CustomerForm$CustomerFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       CustomerForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       CustomerRequest$CustomerRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       CustomerRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           CustomerResponse$CustomerResponseBuilder.class
+        ¦   ¦           ¦   ¦           CustomerResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       Customer$CustomerBuilder.class
+        ¦   ¦           ¦   ¦       Customer.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---mapper
+        ¦   ¦           ¦   ¦       CustomerMapper.class
+        ¦   ¦           ¦   ¦       CustomerMapperImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       CustomerRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦   ¦       CustomerLifecycleValidator.class
+        ¦   ¦           ¦   ¦       CustomerService.class
+        ¦   ¦           ¦   ¦       CustomerServiceImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---specification
+        ¦   ¦           ¦           CustomerSpecification.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---employee
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       EmployeeMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           EmployeeRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       EmployeeForm$EmployeeFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       EmployeeForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       EmployeeRequest$EmployeeRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       EmployeeRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           EmployeeResponse$EmployeeResponseBuilder.class
+        ¦   ¦           ¦   ¦           EmployeeResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       Employee$EmployeeBuilder.class
+        ¦   ¦           ¦   ¦       Employee.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---mapper
+        ¦   ¦           ¦   ¦       EmployeeMapper.class
+        ¦   ¦           ¦   ¦       EmployeeMapperImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       EmployeeRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           EmployeeService.class
+        ¦   ¦           ¦           EmployeeServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---event
+        ¦   ¦           ¦   ¦   AuditEvent.class
+        ¦   ¦           ¦   ¦   CustomerCreatedEvent.class
+        ¦   ¦           ¦   ¦   DomainEvent.class
+        ¦   ¦           ¦   ¦   InvestmentMaturityEvent.class
+        ¦   ¦           ¦   ¦   LoanApprovedEvent.class
+        ¦   ¦           ¦   ¦   TransactionCompletedEvent.class
+        ¦   ¦           ¦   ¦   
+        ¦   ¦           ¦   +---listener
+        ¦   ¦           ¦           AuditEventListener.class
+        ¦   ¦           ¦           NotificationEventListener.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---file
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       FileMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           FileMetadataRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       FileMetadataForm$FileMetadataFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       FileMetadataForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       FileMetadataRequest$FileMetadataRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       FileMetadataRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           FileMetadataResponse$FileMetadataResponseBuilder.class
+        ¦   ¦           ¦   ¦           FileMetadataResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       FileMetadata$FileMetadataBuilder.class
+        ¦   ¦           ¦   ¦       FileMetadata.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---mapper
+        ¦   ¦           ¦   ¦       FileMetadataMapper.class
+        ¦   ¦           ¦   ¦       FileMetadataMapperImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       FileMetadataRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦   ¦       FileMetadataService.class
+        ¦   ¦           ¦   ¦       FileMetadataServiceImpl$1.class
+        ¦   ¦           ¦   ¦       FileMetadataServiceImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---storage
+        ¦   ¦           ¦           FileStorageService.class
+        ¦   ¦           ¦           LocalFileStorageService.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---idempotency
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       ApiIdempotencyKey$ApiIdempotencyKeyBuilder.class
+        ¦   ¦           ¦   ¦       ApiIdempotencyKey.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---filter
+        ¦   ¦           ¦   ¦       IdempotencyKeyFilter.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       ApiIdempotencyKeyRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           IdempotencyService.class
+        ¦   ¦           ¦           IdempotencyServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---investment
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       InvestmentMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           InvestmentRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       InvestmentForm$InvestmentFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       InvestmentForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       InvestmentRequest$InvestmentRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       InvestmentRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           InvestmentResponse$InvestmentResponseBuilder.class
+        ¦   ¦           ¦   ¦           InvestmentResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       Investment$InvestmentBuilder.class
+        ¦   ¦           ¦   ¦       Investment.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---mapper
+        ¦   ¦           ¦   ¦       InvestmentMapper.class
+        ¦   ¦           ¦   ¦       InvestmentMapperImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       InvestmentRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           InvestmentService.class
+        ¦   ¦           ¦           InvestmentServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---investmentperformance
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       InvestmentPerformanceMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           InvestmentPerformanceRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       InvestmentPerformanceForm$InvestmentPerformanceFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       InvestmentPerformanceForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       InvestmentPerformanceRequest$InvestmentPerformanceRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       InvestmentPerformanceRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           InvestmentPerformanceResponse$InvestmentPerformanceResponseBuilder.class
+        ¦   ¦           ¦   ¦           InvestmentPerformanceResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       InvestmentPerformance$InvestmentPerformanceBuilder.class
+        ¦   ¦           ¦   ¦       InvestmentPerformance.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---mapper
+        ¦   ¦           ¦   ¦       InvestmentPerformanceMapper.class
+        ¦   ¦           ¦   ¦       InvestmentPerformanceMapperImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       InvestmentPerformanceRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           InvestmentPerformanceService.class
+        ¦   ¦           ¦           InvestmentPerformanceServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---loan
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       LoanMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           LoanRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       LoanForm$LoanFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       LoanForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       LoanApprovalRequest$LoanApprovalRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       LoanApprovalRequest.class
+        ¦   ¦           ¦   ¦   ¦       LoanDisbursementRequest$LoanDisbursementRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       LoanDisbursementRequest.class
+        ¦   ¦           ¦   ¦   ¦       LoanRejectionRequest$LoanRejectionRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       LoanRejectionRequest.class
+        ¦   ¦           ¦   ¦   ¦       LoanRequest$LoanRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       LoanRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           LoanEligibilityResponse$LoanEligibilityResponseBuilder.class
+        ¦   ¦           ¦   ¦           LoanEligibilityResponse.class
+        ¦   ¦           ¦   ¦           LoanResponse$LoanResponseBuilder.class
+        ¦   ¦           ¦   ¦           LoanResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       Loan$LoanBuilder.class
+        ¦   ¦           ¦   ¦       Loan.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---mapper
+        ¦   ¦           ¦   ¦       LoanMapper.class
+        ¦   ¦           ¦   ¦       LoanMapperImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       LoanRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦   ¦       LoanService.class
+        ¦   ¦           ¦   ¦       LoanServiceImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---specification
+        ¦   ¦           ¦           LoanSpecification.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---loanrepayment
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       LoanRepaymentMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           LoanRepaymentRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       LoanRepaymentForm$LoanRepaymentFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       LoanRepaymentForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       LoanRepaymentRequest$LoanRepaymentRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       LoanRepaymentRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           LoanRepaymentResponse$LoanRepaymentResponseBuilder.class
+        ¦   ¦           ¦   ¦           LoanRepaymentResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       LoanRepayment$LoanRepaymentBuilder.class
+        ¦   ¦           ¦   ¦       LoanRepayment.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---mapper
+        ¦   ¦           ¦   ¦       LoanRepaymentMapper.class
+        ¦   ¦           ¦   ¦       LoanRepaymentMapperImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       LoanRepaymentRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           LoanRepaymentService.class
+        ¦   ¦           ¦           LoanRepaymentServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---notification
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           NotificationRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           NotificationResponse$NotificationResponseBuilder.class
+        ¦   ¦           ¦   ¦           NotificationResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       Notification$NotificationBuilder.class
+        ¦   ¦           ¦   ¦       Notification.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       NotificationRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           NotificationService.class
+        ¦   ¦           ¦           NotificationServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---reporting
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       ReportingMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           ReportingRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       ReportRequest$ReportRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       ReportRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           AccountReportResponse$AccountReportResponseBuilder.class
+        ¦   ¦           ¦   ¦           AccountReportResponse.class
+        ¦   ¦           ¦   ¦           CustomerReportResponse$CustomerReportResponseBuilder.class
+        ¦   ¦           ¦   ¦           CustomerReportResponse.class
+        ¦   ¦           ¦   ¦           InvestmentReportResponse$InvestmentReportResponseBuilder.class
+        ¦   ¦           ¦   ¦           InvestmentReportResponse.class
+        ¦   ¦           ¦   ¦           LoanReportResponse$LoanReportResponseBuilder.class
+        ¦   ¦           ¦   ¦           LoanReportResponse.class
+        ¦   ¦           ¦   ¦           TransactionReportResponse$TransactionReportResponseBuilder.class
+        ¦   ¦           ¦   ¦           TransactionReportResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---enums
+        ¦   ¦           ¦   ¦       ReportType.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       ReportingRepository.class
+        ¦   ¦           ¦   ¦       ReportingRepositoryImpl$ParameterValue.class
+        ¦   ¦           ¦   ¦       ReportingRepositoryImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           ReportingService.class
+        ¦   ¦           ¦           ReportingServiceImpl.class
+        ¦   ¦           ¦           ReportQuery.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---scheduler
+        ¦   ¦           ¦       IdempotencyCleanupScheduler.class
+        ¦   ¦           ¦       InvestmentScheduler.class
+        ¦   ¦           ¦       LoanScheduler.class
+        ¦   ¦           ¦       NotificationScheduler.class
+        ¦   ¦           ¦       RefreshTokenCleanupScheduler.class
+        ¦   ¦           ¦       
+        ¦   ¦           +---security
+        ¦   ¦           ¦   +---audit
+        ¦   ¦           ¦   ¦       SecurityAuditAspect.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---authentication
+        ¦   ¦           ¦   ¦       AuthenticationService.class
+        ¦   ¦           ¦   ¦       CustomUserDetails.class
+        ¦   ¦           ¦   ¦       CustomUserDetailsService.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---authorization
+        ¦   ¦           ¦   ¦       AccountAuthorizationService.class
+        ¦   ¦           ¦   ¦       CustomerAuthorizationService.class
+        ¦   ¦           ¦   ¦       FileMetadataAuthorizationService.class
+        ¦   ¦           ¦   ¦       InvestmentAuthorizationService.class
+        ¦   ¦           ¦   ¦       InvestmentPerformanceAuthorizationService.class
+        ¦   ¦           ¦   ¦       LoanAuthorizationService.class
+        ¦   ¦           ¦   ¦       LoanRepaymentAuthorizationService.class
+        ¦   ¦           ¦   ¦       TransactionAuthorizationService.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---handler
+        ¦   ¦           ¦   ¦       CustomAccessDeniedHandler.class
+        ¦   ¦           ¦   ¦       CustomAuthenticationFailureHandler.class
+        ¦   ¦           ¦   ¦       CustomAuthenticationSuccessHandler.class
+        ¦   ¦           ¦   ¦       RestAccessDeniedHandler.class
+        ¦   ¦           ¦   ¦       RestAuthenticationEntryPoint.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---jwt
+        ¦   ¦           ¦           JwtAuthenticationConverterConfig.class
+        ¦   ¦           ¦           JwtService.class
+        ¦   ¦           ¦           JwtTokenService.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---transaction
+        ¦   ¦           ¦   +---controller
+        ¦   ¦           ¦   ¦   +---mvc
+        ¦   ¦           ¦   ¦   ¦       TransactionMvcController.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---rest
+        ¦   ¦           ¦   ¦           TransactionRestController.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---dto
+        ¦   ¦           ¦   ¦   +---form
+        ¦   ¦           ¦   ¦   ¦       TransactionForm$TransactionFormBuilder.class
+        ¦   ¦           ¦   ¦   ¦       TransactionForm.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---request
+        ¦   ¦           ¦   ¦   ¦       TransactionRequest$TransactionRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       TransactionRequest.class
+        ¦   ¦           ¦   ¦   ¦       TransferRequest$TransferRequestBuilder.class
+        ¦   ¦           ¦   ¦   ¦       TransferRequest.class
+        ¦   ¦           ¦   ¦   ¦       
+        ¦   ¦           ¦   ¦   +---response
+        ¦   ¦           ¦   ¦           TransactionResponse$TransactionResponseBuilder.class
+        ¦   ¦           ¦   ¦           TransactionResponse.class
+        ¦   ¦           ¦   ¦           
+        ¦   ¦           ¦   +---entity
+        ¦   ¦           ¦   ¦       Transaction$TransactionBuilder.class
+        ¦   ¦           ¦   ¦       Transaction.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---mapper
+        ¦   ¦           ¦   ¦       TransactionMapper.class
+        ¦   ¦           ¦   ¦       TransactionMapperImpl.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---repository
+        ¦   ¦           ¦   ¦       TransactionRepository.class
+        ¦   ¦           ¦   ¦       
+        ¦   ¦           ¦   +---service
+        ¦   ¦           ¦           TransactionReferenceGenerator.class
+        ¦   ¦           ¦           TransactionReferenceGeneratorImpl.class
+        ¦   ¦           ¦           TransactionService.class
+        ¦   ¦           ¦           TransactionServiceImpl$1.class
+        ¦   ¦           ¦           TransactionServiceImpl.class
+        ¦   ¦           ¦           
+        ¦   ¦           +---user
+        ¦   ¦               +---controller
+        ¦   ¦               ¦   +---mvc
+        ¦   ¦               ¦   ¦       UserMvcController.class
+        ¦   ¦               ¦   ¦       
+        ¦   ¦               ¦   +---rest
+        ¦   ¦               ¦           UserRestController.class
+        ¦   ¦               ¦           
+        ¦   ¦               +---dto
+        ¦   ¦               ¦   +---request
+        ¦   ¦               ¦   ¦       UserRequest$UserRequestBuilder.class
+        ¦   ¦               ¦   ¦       UserRequest.class
+        ¦   ¦               ¦   ¦       
+        ¦   ¦               ¦   +---response
+        ¦   ¦               ¦           UserResponse$UserResponseBuilder.class
+        ¦   ¦               ¦           UserResponse.class
+        ¦   ¦               ¦           
+        ¦   ¦               +---entity
+        ¦   ¦               ¦       User$UserBuilder.class
+        ¦   ¦               ¦       User.class
+        ¦   ¦               ¦       
+        ¦   ¦               +---mapper
+        ¦   ¦               ¦       UserMapper.class
+        ¦   ¦               ¦       UserMapperImpl.class
+        ¦   ¦               ¦       
+        ¦   ¦               +---repository
+        ¦   ¦               ¦       UserRepository.class
+        ¦   ¦               ¦       
+        ¦   ¦               +---service
+        ¦   ¦                       UserService.class
+        ¦   ¦                       UserServiceImpl.class
+        ¦   ¦                       
+        ¦   +---db
+        ¦   ¦   +---migration
+        ¦   ¦           V10__create_file_metadata.sql
+        ¦   ¦           V11__create_refresh_tokens.sql
+        ¦   ¦           V12__add_loan_disbursement_support.sql
+        ¦   ¦           V13__add_customer_lifecycle.sql
+        ¦   ¦           V14__create_notifications.sql
+        ¦   ¦           V15__create_audit_logs.sql
+        ¦   ¦           V16__create_idempotency_keys.sql
+        ¦   ¦           V17__add_investment_settlement_support.sql
+        ¦   ¦           V18__correct_transaction_type_constraint.sql
+        ¦   ¦           V1__create_users.sql
+        ¦   ¦           V2__create_customers.sql
+        ¦   ¦           V3__create_employees.sql
+        ¦   ¦           V4__create_accounts.sql
+        ¦   ¦           V5__create_transactions.sql
+        ¦   ¦           V6__create_loans.sql
+        ¦   ¦           V7__create_loan_repayments.sql
+        ¦   ¦           V8__create_investments.sql
+        ¦   ¦           V9__create_investment_performance.sql
+        ¦   ¦           
+        ¦   +---static
+        ¦   ¦   +---css
+        ¦   ¦   ¦       auth.css
+        ¦   ¦   ¦       banking.css
+        ¦   ¦   ¦       common.css
+        ¦   ¦   ¦       dashboard.css
+        ¦   ¦   ¦       
+        ¦   ¦   +---images
+        ¦   ¦   ¦       logo.png
+        ¦   ¦   ¦       
+        ¦   ¦   +---js
+        ¦   ¦           banking.js
+        ¦   ¦           common.js
+        ¦   ¦           validation.js
+        ¦   ¦           
+        ¦   +---templates
+        ¦       +---admin
+        ¦       ¦       accounts.html
+        ¦       ¦       audit.html
+        ¦       ¦       customers.html
+        ¦       ¦       dashboard.html
+        ¦       ¦       employees.html
+        ¦       ¦       investments.html
+        ¦       ¦       loans.html
+        ¦       ¦       reports.html
+        ¦       ¦       users.html
+        ¦       ¦       
+        ¦       +---auth
+        ¦       ¦       access-denied.html
+        ¦       ¦       change-password.html
+        ¦       ¦       login.html
+        ¦       ¦       
+        ¦       +---customer
+        ¦       ¦       accounts.html
+        ¦       ¦       dashboard.html
+        ¦       ¦       files.html
+        ¦       ¦       investments.html
+        ¦       ¦       loans.html
+        ¦       ¦       notifications.html
+        ¦       ¦       profile.html
+        ¦       ¦       transactions.html
+        ¦       ¦       transfer.html
+        ¦       ¦       
+        ¦       +---employee
+        ¦       ¦       accounts.html
+        ¦       ¦       customers.html
+        ¦       ¦       dashboard.html
+        ¦       ¦       investments.html
+        ¦       ¦       loans.html
+        ¦       ¦       profile.html
+        ¦       ¦       
+        ¦       +---error
+        ¦       ¦       400.html
+        ¦       ¦       403.html
+        ¦       ¦       404.html
+        ¦       ¦       409.html
+        ¦       ¦       500.html
+        ¦       ¦       access-denied.html
+        ¦       ¦       error.html
+        ¦       ¦       
+        ¦       +---fragments
+        ¦               alerts.html
+        ¦               footer.html
+        ¦               header.html
+        ¦               navbar.html
+        ¦               pagination.html
+        ¦               sidebar.html
+        ¦               
+        +---generated-sources
+        ¦   +---annotations
+        ¦       +---com
+        ¦           +---example
+        ¦               +---bank
+        ¦                   +---account
+        ¦                   ¦   +---mapper
+        ¦                   ¦           AccountMapperImpl.java
+        ¦                   ¦           
+        ¦                   +---customer
+        ¦                   ¦   +---mapper
+        ¦                   ¦           CustomerMapperImpl.java
+        ¦                   ¦           
+        ¦                   +---employee
+        ¦                   ¦   +---mapper
+        ¦                   ¦           EmployeeMapperImpl.java
+        ¦                   ¦           
+        ¦                   +---file
+        ¦                   ¦   +---mapper
+        ¦                   ¦           FileMetadataMapperImpl.java
+        ¦                   ¦           
+        ¦                   +---investment
+        ¦                   ¦   +---mapper
+        ¦                   ¦           InvestmentMapperImpl.java
+        ¦                   ¦           
+        ¦                   +---investmentperformance
+        ¦                   ¦   +---mapper
+        ¦                   ¦           InvestmentPerformanceMapperImpl.java
+        ¦                   ¦           
+        ¦                   +---loan
+        ¦                   ¦   +---mapper
+        ¦                   ¦           LoanMapperImpl.java
+        ¦                   ¦           
+        ¦                   +---loanrepayment
+        ¦                   ¦   +---mapper
+        ¦                   ¦           LoanRepaymentMapperImpl.java
+        ¦                   ¦           
+        ¦                   +---transaction
+        ¦                   ¦   +---mapper
+        ¦                   ¦           TransactionMapperImpl.java
+        ¦                   ¦           
+        ¦                   +---user
+        ¦                       +---mapper
+        ¦                               UserMapperImpl.java
+        ¦                               
+        +---generated-test-sources
+        ¦   +---test-annotations
+        +---maven-status
+        ¦   +---maven-compiler-plugin
+        ¦       +---compile
+        ¦       ¦   +---default-compile
+        ¦       ¦           createdFiles.lst
+        ¦       ¦           inputFiles.lst
+        ¦       ¦           
+        ¦       +---testCompile
+        ¦           +---default-testCompile
+        ¦                   createdFiles.lst
+        ¦                   inputFiles.lst
+        ¦                   
+        +---test-classes
+            ¦   application-test.yml
+            ¦   test-data.sql
+            ¦   
+            +---com
+                +---example
+                    +---bank
+                        ¦   BankApplicationTests.class
+                        ¦   
+                        +---controller
+                        ¦   +---account
+                        ¦   ¦       AccountRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---admin
+                        ¦   ¦       AdminRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---customer
+                        ¦   ¦       CustomerRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---employee
+                        ¦   ¦       EmployeeRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---file
+                        ¦   ¦       FileMetadataRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---investment
+                        ¦   ¦       InvestmentRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---investmentperformance
+                        ¦   ¦       InvestmentPerformanceRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---loan
+                        ¦   ¦       LoanRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---loanrepayment
+                        ¦   ¦       LoanRepaymentRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---transaction
+                        ¦   ¦       TransactionRestControllerTest.class
+                        ¦   ¦       
+                        ¦   +---user
+                        ¦           UserRestControllerTest.class
+                        ¦           
+                        +---integration
+                        ¦   +---common
+                        ¦       +---audit
+                        ¦               JpaAuditingIntegrationTest$AuditableTestEntity.class
+                        ¦               JpaAuditingIntegrationTest$AuditableTestRepository.class
+                        ¦               JpaAuditingIntegrationTest.class
+                        ¦               
+                        +---repository
+                        ¦   +---account
+                        ¦   ¦       AccountRepositoryTest.class
+                        ¦   ¦       
+                        ¦   +---customer
+                        ¦   ¦       CustomerRepositoryTest.class
+                        ¦   ¦       
+                        ¦   +---employee
+                        ¦   ¦       EmployeeRepositoryTest.class
+                        ¦   ¦       
+                        ¦   +---file
+                        ¦   ¦       FileMetadataRepositoryTest.class
+                        ¦   ¦       
+                        ¦   +---investment
+                        ¦   ¦       InvestmentRepositoryTest.class
+                        ¦   ¦       
+                        ¦   +---investmentperformance
+                        ¦   ¦       InvestmentPerformanceRepositoryTest.class
+                        ¦   ¦       
+                        ¦   +---loan
+                        ¦   ¦       LoanRepositoryTest.class
+                        ¦   ¦       
+                        ¦   +---loanrepayment
+                        ¦   ¦       LoanRepaymentRepositoryTest.class
+                        ¦   ¦       
+                        ¦   +---transaction
+                        ¦   ¦       TransactionRepositoryTest.class
+                        ¦   ¦       
+                        ¦   +---user
+                        ¦           UserRepositoryTest.class
+                        ¦           
+                        +---security
+                        ¦   ¦   UserSecurityAuthorizationTest.class
+                        ¦   ¦   
+                        ¦   +---authentication
+                        ¦   ¦       AuthenticationServiceTest.class
+                        ¦   ¦       CustomUserDetailsServiceTest.class
+                        ¦   ¦       
+                        ¦   +---authorization
+                        ¦   ¦       FileMetadataAuthorizationServiceTest.class
+                        ¦   ¦       InvestmentAuthorizationServiceTest.class
+                        ¦   ¦       InvestmentPerformanceAuthorizationServiceTest.class
+                        ¦   ¦       LoanAuthorizationServiceTest.class
+                        ¦   ¦       LoanRepaymentAuthorizationServiceTest.class
+                        ¦   ¦       
+                        ¦   +---jwt
+                        ¦           JwtTokenServiceTest.class
+                        ¦           
+                        +---service
+                            +---account
+                            ¦       AccountNumberGeneratorImplTest.class
+                            ¦       AccountServiceImplTest.class
+                            ¦       
+                            +---admin
+                            ¦       AdminServiceImplTest.class
+                            ¦       
+                            +---customer
+                            ¦       CustomerServiceImplTest.class
+                            ¦       
+                            +---employee
+                            ¦       EmployeeServiceImplTest.class
+                            ¦       
+                            +---file
+                            ¦       FileMetadataServiceImplTest.class
+                            ¦       LocalFileStorageServiceTest.class
+                            ¦       
+                            +---investment
+                            ¦       InvestmentServiceImplTest.class
+                            ¦       
+                            +---investmentperformance
+                            ¦       InvestmentPerformanceServiceImplTest.class
+                            ¦       
+                            +---loan
+                            ¦       LoanServiceImplTest.class
+                            ¦       
+                            +---loanrepayment
+                            ¦       LoanRepaymentServiceImplTest.class
+                            ¦       
+                            +---transaction
+                            ¦       TransactionServiceImplTest.class
+                            ¦       
+                            +---user
+                                    UserServiceImplTest.class
+                                    
